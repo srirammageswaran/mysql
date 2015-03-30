@@ -36,7 +36,7 @@ class Chef
           action new_resource.package_action
         end
 
-        create_stop_system_service
+        #create_stop_system_service
 
         # Apparmor
         configure_apparmor
